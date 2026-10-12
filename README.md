@@ -55,22 +55,22 @@ boot-button dance).
 
 | Sheet | File |
 |---|---|
-| Power, charger and regulator | [01-power-and-charging.svg](docs/schematics/01-power-and-charging.svg) |
-| ESP32-C3, USB bridge, flash, SD card | [02-esp32-c3-and-usb.svg](docs/schematics/02-esp32-c3-and-usb.svg) |
-| Sensors (BME280, light, microphone) | [03-sensors.svg](docs/schematics/03-sensors.svg) |
-| User interface (buttons, auto-reset, headers) | [04-user-interface.svg](docs/schematics/04-user-interface.svg) |
+| Power, charger and regulator | [01-power-and-charging.png](docs/schematics/01-power-and-charging.png) |
+| ESP32-C3, USB bridge, flash, SD card | [02-esp32-c3-and-usb.png](docs/schematics/02-esp32-c3-and-usb.png) |
+| Sensors (BME280, light, microphone) | [03-sensors.png](docs/schematics/03-sensors.png) |
+| User interface (buttons, auto-reset, headers) | [04-user-interface.png](docs/schematics/04-user-interface.png) |
 
 ### Power and charging
-![Power and charging](docs/schematics/01-power-and-charging.svg)
+![Power and charging](docs/schematics/01-power-and-charging.png)
 
 ### ESP32-C3, USB and storage
-![ESP32-C3](docs/schematics/02-esp32-c3-and-usb.svg)
+![ESP32-C3](docs/schematics/02-esp32-c3-and-usb.png)
 
 ### Sensors
-![Sensors](docs/schematics/03-sensors.svg)
+![Sensors](docs/schematics/03-sensors.png)
 
 ### User interface
-![User interface](docs/schematics/04-user-interface.svg)
+![User interface](docs/schematics/04-user-interface.png)
 
 ## Project files
 
@@ -81,6 +81,6 @@ boot-button dance).
 | `ESP32IoT.kicad_pcb` | Routed 4-layer board |
 | `Symbols/`, `Footprints/`, `3D models/` | Project libraries |
 | `BOM.ods`, `BOM11.xlsx` | Bill of materials |
-| `docs/` | Renders and schematic exports used by this README |
+| `docs/` | Renders and schematic images used by this README (`docs/schematics/ESP32IoT-schematic.pdf` is the full vector schematic) |
 
 
