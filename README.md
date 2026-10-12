@@ -3,8 +3,7 @@
 A compact, battery-powered, Wi-Fi/Bluetooth LE sensor board built around the
 **ESP32-C3-WROOM-02-H4**. It logs temperature, humidity, pressure, light and sound,
 stores data on a microSD card and external flash, and charges a single-cell LiPo
-from USB-C. The same USB-C port programs the ESP32 automatically (no manual
-boot-button dance).
+from USB-C. The same USB-C port programs the ESP32 automatically.
 
 ![3D view, top](docs/board-3d-top.png)
 
