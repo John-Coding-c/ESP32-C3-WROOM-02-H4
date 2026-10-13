@@ -71,6 +71,16 @@ from USB-C. The same USB-C port programs the ESP32 automatically.
 ### User interface
 ![User interface](docs/schematics/04-user-interface.png)
 
+## Direct Memory Access
+
+uses the ESP32-C3's DMA for the SPI flash, the microSD card and the light sensor. 
+
+```
+cd firmware
+idf.py set-target esp32c3
+idf.py build flash monitor
+```
+
 ## Project files
 
 | Path | Contents |
@@ -79,6 +89,7 @@ from USB-C. The same USB-C port programs the ESP32 automatically.
 | `ESP32IoT.kicad_sch` + `esp32-c3-02`, `sensors`, `user_interface` sheets | Hierarchical schematic |
 | `ESP32IoT.kicad_pcb` | Routed 4-layer board |
 | `Symbols/`, `Footprints/`, `3D models/` | Project libraries |
+| `firmware/` | ESP-IDF test firmware using GDMA (SPI flash, SD card, ADC) |
 | `BOM.ods`, `BOM11.xlsx` | Bill of materials |
 | `docs/` | Renders and schematic images used by this README (`docs/schematics/ESP32IoT-schematic.pdf` is the full vector schematic) |
 
